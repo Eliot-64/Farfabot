@@ -1308,4 +1308,11 @@ async def ai(ctx, *, question):
 
 # Start the bot
 import os
-bot.run(os.getenv("TOKEN"))
+token = os.getenv("TOKEN")
+print(f"DEBUG: TOKEN is {token}")
+
+if not token:
+    raise RuntimeError("TOKEN is missing! Please set it in environment variables.")
+
+
+bot.run(token)
