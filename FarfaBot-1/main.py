@@ -462,7 +462,7 @@ context_responses = {
     "brainrot": "Tralalero Tralala",
     "wdym": "I mean you suck at shell shocker noob",
     "yes": "no",
-    "thxs": "You're welcome, noob.";
+    "thxs": "You're welcome, noob.",
     "idk": "You should know my man"
 }
 
