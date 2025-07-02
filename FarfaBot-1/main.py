@@ -463,6 +463,8 @@ context_responses = {
     "wdym": "I mean you suck at shell shocker noob",
     "yes": "no",
     "thxs": "You're welcome, noob.",
+    "ty": "You're welcome, noob.",
+    "tysm": "You're welcome, noob.",
     "idk": "You should know my man"
 }
 
@@ -500,6 +502,10 @@ async def on_message(message):
     elif content == "no":
         await message.add_reaction("👎")
     elif content == "thxs":
+        await message.add_reaction("🤭")
+    elif content == "ty":
+        await message.add_reaction("🤭")
+    elif content == "tysm":
         await message.add_reaction("🤭")
     elif content == "idk":
         await message.add_reaction("🧠")
