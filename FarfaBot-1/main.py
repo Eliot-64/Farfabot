@@ -462,7 +462,8 @@ context_responses = {
     "brainrot": "Tralalero Tralala",
     "wdym": "I mean you suck at shell shocker noob",
     "yes": "no",
-    "thxs": "You're welcome, noob."
+    "thxs": "You're welcome, noob.";
+    "idk": "You should know my man"
 }
 
 # Événement de message
@@ -500,7 +501,9 @@ async def on_message(message):
         await message.add_reaction("👎")
     elif content == "thxs":
         await message.add_reaction("🤭")
-
+    elif content == "idk":
+        await message.add_reaction("🧠")
+    
     await bot.process_commands(message)
 
 
