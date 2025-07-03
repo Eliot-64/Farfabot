@@ -465,7 +465,8 @@ context_responses = {
     "thxs": "You're welcome, noob.",
     "ty": "You're welcome, noob.",
     "tysm": "You're welcome, noob.",
-    "idk": "You should know my man"
+    "idk": "You should know my man",
+    "wait": "Nah I can't wait bro! Hurry up!"
 }
 
 # Événement de message
